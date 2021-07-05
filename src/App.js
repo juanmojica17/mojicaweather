@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {findAllByDisplayValue} from "@testing-library/react";
+
 const api = {
   key: "98a8a391dfb554c32f9bbd2ab8769e32",
   base: "https://api.openweathermap.org/data/2.5/"
@@ -83,7 +83,7 @@ function App() {
 
 
                   <div className="weather">{weather.weather[0].main}</div>
-                    <a href='#' className="again"><h6>see another city</h6></a>
+                    <a href='https://mojicaweather.vercel.app/' className="again"><h6>see another city</h6></a>
                 </div>
 
               </div>
