@@ -8,7 +8,7 @@ const api = {
 function App() {
   const [query, setQuery] = useState('');
   const [weather, setWeather] = useState({});
-    const [conversor, setConversor] = useState('see yor weather');
+    const [conversor, setConversor] = useState('your weather');
 
   const search = a => {
     if (a.key === "Enter") {
@@ -63,7 +63,7 @@ function App() {
 
 
                  <button className= "temp" onClick={()=>{
-                     if(conversor === 'see yor weather'){
+                     if(conversor === 'your weather'){
                          setConversor(Math.round(weather.main.temp)+'°c')
                      }
                      if(conversor === Math.round(weather.main.temp)+'°c'){
