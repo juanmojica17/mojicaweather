@@ -44,10 +44,7 @@ function App() {
                 onKeyPress={search}
 
             />
-              <div className={"tittle"}><h6>MOJICAWEATHERAPP</h6></div>
-              <div className="tittle2">LOOK YOUR WEATHER
 
-              </div>
           </div>
 
           {(typeof weather.main != "undefined") ? (
@@ -85,6 +82,7 @@ function App() {
 
                   <div className="weather">{weather.weather[0].main}</div>
                     <a href='https://mojicaweather.vercel.app/' className="again"><h6>see another city</h6></a>
+                    <h1>►MOJICAWEATHERAPP◄</h1>
                 </div>
 
               </div>
