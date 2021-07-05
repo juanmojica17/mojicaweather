@@ -29,7 +29,7 @@ function App() {
 
   return (
 
-      <div className={(typeof weather.main != "undefined") ? ((weather.main.temp < 18) ? 'app warm' : 'app') : 'app'}>
+      <div className={(typeof weather.main != "undefined") ? ((weather.main.temp < 21) ? 'app warm' : 'app') : 'app'}>
 
           <main>
               <div className={"tittle"}><h6>MOJICAWEATHERAPP</h6></div>
