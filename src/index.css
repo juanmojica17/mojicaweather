@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Yu Gothic UI Light";
+  font-size: large;
+  font-weight: bolder;
+}
+
+.app {
+  background-image: url("./diasoleado.jpeg") ;
+
+  background-size: cover;
+  background-position: bottom;
+
+}
+
+.app.warm {
+  background-image: url("./climaoscuro.jpg");
+
+}
+
+app.dark{
+
+
+}
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  padding: 25px;
+}
+
+.search-box {
+  width: 60%;
+  margin:60px 25px 0px 250px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 10px;
+
+  appearance: none;
+  background-color: white;
+  border: black solid;
+  outline: none;
+
+
+  border-radius: 5px 5px 5px 5px;
+  margin-top: -25px;
+
+
+
+  color: black;
+  font-size: 20px;
+
+  transition: 0.4s ease;
+}
+
+
+
+.location-box .location {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+
+}
+
+.location-box .date {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: black;
+  font-size: 102px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+
+}
+
+.weather-box .weather {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+
+}
+.tittle{
+  margin-left: 500px ;
+  flex-direction: column;
+  display: flex;
+  font-size: xxx-large;
+}
+
+.tittle2{
+  margin-left: 400px ;
+  flex-direction: column;
+  display: flex;
+  font-size: xxx-large;
+}
+button{
+ color: #FFF
+}
+
+.again{
+  position: relative;
+  display: inline-block;
+
+
+  border-radius: 16px;
+
+  padding: 1px 200px;
+
+  color: black;
+  font-size: 60px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+}
