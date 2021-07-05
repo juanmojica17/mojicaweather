@@ -15,12 +15,12 @@ body {
 
   background-size: cover;
   background-position: bottom;
-
+  width: 100%;
 }
 
 .app.warm {
   background-image: url("./climaoscuro.jpg");
-
+  width: 100%;
 }
 
 app.dark{
