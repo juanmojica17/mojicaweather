@@ -82,7 +82,7 @@ function App() {
 
                   <div className="weather">{weather.weather[0].main}</div>
                     <a href='https://mojicaweather.vercel.app/' className="again"><h6>see another city</h6></a>
-                    <h1>►MOJICAWEATHERAPP◄</h1>
+                    <h6>►MOJICAWEATHERAPP◄</h6>
                 </div>
 
               </div>
