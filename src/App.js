@@ -63,13 +63,13 @@ function App() {
         <div className={(typeof weather.main != "undefined") ? ((weather.main.temp < 18) ? 'app warm' : 'app') : 'app'}>
 
             <main>
-                <div className={"tittle"}><h6>MOJICAWEATHERAPP</h6></div>
+                <div className='borderapp'><h6>MOJICAWEATHERAPP</h6></div>
 <div className="locationinfodad">
     <div>
-                <div className="locationinfo">you are in {cityname}</div>
-                <div className="locationinfo">{countryname}</div>
+                <div className="locationinfo">you are in {cityname}, {countryname}</div>
+
                 <div>humedad: {hum}%</div>
-                <button className="locationinfo" onClick={() => {
+                <button className="locationinfob" onClick={() => {
                     if (conversor2 === 'your weather') {
                         setConversor2(Math.round(we) + '°c')
                     }
@@ -82,8 +82,9 @@ function App() {
                 }}>{conversor2}
 
                 </button>
+        <div >{icon}</div>
     </div>
-    <div >{icon}</div>
+
 </div>
                 <div className="search-box">
 
@@ -99,9 +100,7 @@ function App() {
 
                 </div>
 
-                <div className="tittle2">LOOK OTHER WEATHER
 
-                </div>
                 {(typeof weather.main != "undefined") ? (
                     <div>
                         <div className="location-box">
