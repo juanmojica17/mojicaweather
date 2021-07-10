@@ -12,7 +12,7 @@ function App() {
     const [long, setlong] = useState();
     const [query, setQuery] = useState();
     const [weather, setWeather] = useState({});
-    const [conversor, setConversor] = useState('see other weather');
+    const [conversor, setConversor] = useState('weather');
     const [conversor2, setConversor2] = useState('your weather');
     const [cityname, setcityname] = useState();
     const [countryname, setcountryname] = useState();
@@ -115,7 +115,7 @@ function App() {
 
 
                             <button className="temp" onClick={() => {
-                                if (conversor === 'see other weather') {
+                                if (conversor === 'weather') {
                                     setConversor(Math.round(weather.main.temp) + '°c')
                                 }
                                 if (conversor === Math.round(weather.main.temp) + '°c') {
@@ -130,7 +130,7 @@ function App() {
 
 
                             <div className="weather">{weather.weather[0].main}</div>
-                            <a href='#' className="again"><h6>see another city</h6></a>
+                            <a href='http//:mojicaweather.vercel.app' className="again"><h6>see another city</h6></a>
                         </div>
 
                     </div>
